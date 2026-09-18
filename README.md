@@ -1,16 +1,37 @@
-# React + Vite
+# website live vercel link - https://movie-explorer-artflix.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ArtFlix - Movie & Show Explorer
 
-Currently, two official plugins are available:
+A responsive streaming platform interface built with React, Vite, and Tailwind CSS. The application hooks directly into the public TVMaze API endpoint network to serve real-time television and media information lists cleanly, without any hard logic code dependencies.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Active Feature Architecture
 
-## React Compiler
+* **Sticky Navigation Layout:** A responsive frosted glass layout header context tracking element locations with custom hover interaction animations.
+* **Cinematic Hero Landing:** A deep-theme banner built entirely via background gradient templates and a smooth target anchor scroll toggle trigger.
+* **Live API Engine Integration:** Utilizes async network operations to query both the general `/shows` collection index and real-time query string filters via `/search/shows?q=:query` concurrently.
+* **Responsive Media Grid Grid:** Displays movie selections via abstract card UI components containing structural poster wrappers, metadata markers, runtime calculations, and interactive details indicators.
+* **Overview Summary Overlay:** A responsive pop-up modal display layout parsing text records cleanly and providing outside click window closure options.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tool Palette & Setup
 
-## Expanding the ESLint configuration
+* **Framework Engine:** React (Vite environment bundle structure)
+* **Compiler Rules:** ESLint standard configuration
+* **Styling Matrix:** Tailwind CSS (Modern `@theme` directive palette injection)
+* **Data Sources:** TVMaze Public API Network
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🏃 Local Execution Guidelines
+
+To view or launch the dashboard locally on your desktop environment:
+
+1. Clone or sync this repository structure to your local directory setup.
+2. Initialize terminal packages inside the root folder context:
+   ```bash
+   npm install
+   ```
+3. Boot the Vite local compiler script runner:
+   ```bash
+   npm run dev
+   ```
+4. Click the local server network address provided in the console terminal context (`http://localhost:5173`).
