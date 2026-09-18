@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brandGreen: #2D6A4F;
+  --color-brandSilver: #B7C4CF;
+  --color-brandBg: #081C15;
+  --color-brandText: #FFFFFF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
